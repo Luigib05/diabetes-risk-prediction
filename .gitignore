@@ -1,0 +1,12 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore system files
+__pycache__/
+*.pyc
+
+# Ignore temporary notebooks
+.ipynb_checkpoints/
+
+# Ignore output files
+outputs/
