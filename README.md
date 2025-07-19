@@ -57,21 +57,21 @@ diabetes-risk-prediction_project/
 git clone https://github.com/Luigib05/diabetes-risk-prediction.git
 cd diabetes-risk-prediction
 
-# Create and activate a virtual environment:
+2. Create and activate a virtual environment:
 
 python -m venv .venv
 source .venv/bin/activate       # On Linux/macOS
 .venv\Scripts\activate          # On Windows
 
-# Install dependencies:
+3. Install dependencies:
 
 pip install -r requirements.txt
 
-# Run the full pipeline:
+4. Run the full pipeline:
 
 python main.py
 
-## Final Model: Random Forest Classifier
+Final Model: Random Forest Classifier
 
 The final model was trained using a Random Forest classifier with the default configuration. Performance was evaluated on a holdout test set.
 
