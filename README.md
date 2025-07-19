@@ -46,6 +46,9 @@ diabetes-risk-prediction_project/
 ├── requirements.txt
 └── main.py # Pipeline to run data → model → evaluation
 
+The core logic is modularized in Python scripts (`src/`), while exploratory analysis is presented in the Jupyter Notebook (`notebooks/`).  
+This structure reflects good practice for separating production code from experimental work.
+
 
 ---
 
